@@ -21,7 +21,7 @@ Module modMain
 
         Dim instance As New GOCASCodeGen
 
-        If (instance.Decode("CI4OY1DASW7491D67A")) Then
+        If (instance.Decode("CI4IT1FFVI8ABEC67B")) Then
             Debug.Print("TRAN NO: " + instance.TransactionNo)
             Debug.Print("USER ID: " + instance.UserID)
             Debug.Print("WITH CI: " + Str(instance.IsCINeeded))
@@ -52,11 +52,11 @@ Module modMain
 
         '    'instance.Decode("BB8I114Q288A4282RB")
         '    ''------------------------------------------------------------------
-        instance.UserID = "GAP021001269" 'created
-        instance.TransactionNo = "CI4OL2300134" 'table transaction number
-        instance.LastName = "Villanueva"
-        instance.FirstName = "Alwin"
-        instance.MiddleName = ". "
+        instance.UserID = "GAP021001049" 'created
+        instance.TransactionNo = "CI4IH2400019" 'table transaction number
+        instance.LastName = "Martinez"
+        instance.FirstName = "Dennis"
+        instance.MiddleName = "Sabalburo"
         instance.SuffixName = ""
         instance.IsCINeeded = False 'is CI needed
         instance.DownPayment = 200 'approved downpayment
